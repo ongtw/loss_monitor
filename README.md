@@ -22,7 +22,9 @@ setup with the correct sound file names.
 ## Compilation
     $ make
 
-The `Makefile` is done on macOS 12. Need to customize this to build on Windows / Linux.
+The `Makefile` is done on macOS 12.
+Need to ensure SDL2 developer version is correctly installed.
+Need to customize this to build on Windows / Linux.
 
 ## Usage:
     $ ssh ohiomlflow "/home/ubuntu/utils/mon.sh" | loss_mon
