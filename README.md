@@ -12,7 +12,7 @@ It checks the loss against three levels of thresholds and sounds the correspondi
 
 ## Sounds
 Make sure the appropriate MP3 files are stored in `sounds/`. 
-The `alertMap` data structure in `dotw_loss_mon.cpp` has to be 
+The `alertMap` data structure in `loss_mon.cpp` has to be 
 setup with the correct sound file names.
 
 ## Pre-requisites
@@ -25,6 +25,6 @@ setup with the correct sound file names.
 The `Makefile` is done on macOS 12. Need to customize this to build on Windows / Linux.
 
 ## Usage:
-    $ ssh ohiomlflow "/home/ubuntu/utils/mon.sh" | dotw_loss_mon
+    $ ssh ohiomlflow "/home/ubuntu/utils/mon.sh" | loss_mon
 
 The `mon.sh` utility simply tails the MLFlow metric file and send the stream back via `ssh` to the `loss_monitor` app.

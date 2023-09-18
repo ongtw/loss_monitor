@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++17 -F /Library/Frameworks -I /opt/homebrew/Cellar/sdl2/2.28.3
 
 LDFLAGS = -v -F /Library/Frameworks -framework SDL2 -L /opt/homebrew/Cellar/sdl2_mixer/2.6.3_1/lib -lSDL2_mixer
 
-APP = dotw_loss_mon
+APP = loss_mon
 
 all: $(APP)
 
