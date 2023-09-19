@@ -15,6 +15,8 @@ Make sure the appropriate MP3 files are stored in `sounds/`.
 The `alertMap` data structure in `loss_mon.cpp` has to be 
 setup with the correct sound file names.
 
+A good source for free sound effects is https://pixabay.com/sound-effects
+
 ## Pre-requisites
     - C++
     - SDL2
@@ -23,8 +25,9 @@ setup with the correct sound file names.
     $ make
 
 The `Makefile` is done on macOS 12.
-Need to ensure SDL2 developer version is correctly installed.
-Need to customize this to build on Windows / Linux.
+Ensure SDL2 is correctly installed. One good source is via `homebrew`, available at https://brew.sh
+
+Need to customize the makefile for Windows / Linux.
 
 ## Testing
 When `loss_mon` is run, it reads from the input I/O stream.
